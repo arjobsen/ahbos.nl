@@ -5,7 +5,7 @@ TODOS:
     * Wordbreaks `<wbr>` in template als HTML doorzetten
         * Check yaml.safe_load() en/of jinja2 escapes
     * Gebruik verschillende kleuren voor project voor freelance / EIFFEL en anderen
-    * Consistentie in datums / perioden van projecten
+    * Loop over projecten voor frontpage en haal ze uit de yaml
 
 -->
 <head>
@@ -85,8 +85,8 @@ TODOS:
                         <div class="grid grid-cols-2 text-sm">
                             <div>
                                 <div class="mb-2">
-                                    <div>Microsoft Data Analyst (DA-100)</div>
-                                    <div class="text-xs text-stone-500">Microsoft &mdash; 2020</div>
+                                    <div>Power BI Data Analyst (DA-100)</div>
+                                    <div class="text-xs text-stone-500">Microsoft &mdash; 2020 (Renewed 2022)</div>
                                 </div>
                                 <div class="mb-2">
                                     <div>Professional Scrum Master I</div>
@@ -171,8 +171,8 @@ TODOS:
                 </div>
                 
                 <ul class="absolute top-0 right-0 pl-8 bg-stone-50 space-y-1 text-xs text-stone-400">
-                    <li><a href="mailto:arjen@bosconsultant.nl" target="_blank"><i class="w-6 text-center fa fa-envelope"></i> arjen@bosconsultant.nl</a></li>
-                    <li><a href="tel:+31615399756" target="_blank"><i class="w-6 text-center fa fa-phone"></i> +31 6 15399756</a></li>
+                    <li><a href=# target="_blank" id="email"><i class="w-6 text-center fa fa-envelope"></i> <span></span></a></li>
+                    <li><a href=# target="_blank" id="phone"><i class="w-6 text-center fa fa-phone"></i> <span></span></a></li>
                     <li><a href="https://linkedin.com/in/arjenbos4" target="_blank"><i class="w-6 text-center fa fa-linkedin"></i> /arjenbos4</a></li>
                     <li><i class="w-6 text-center fa fa-calendar"></i> 3 Jan 1991</li>
                     <li><i class="w-6 text-center fa fa-map-marker"></i> Eindhoven / Remote</li>
@@ -469,6 +469,21 @@ Vanuit de opgedane kennis bij Aegon NL heb ik OneTrust gegevens verwerkt zodat d
             </div>
         </div>
     </div>
+    
+    <!-- JavaScript -->
+    <script src="/js/encrypt-email.js"></script>
+    <script>
+        // Wacht en daarna decrypt personal data
+        function sleep(ms) {
+           return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        sleep(2100).then(() => {
+            document.getElementById("email").href = "mailto:" + decrypt("bskfoAcptdpotvmubou/om");
+            document.querySelector("#email span").innerHTML = decrypt("bskfoAcptdpotvmubou/om");
+            document.getElementById("phone").href = "tel:" + decrypt(",427264::867");
+            document.querySelector("#phone span").innerHTML = decrypt(",427264::867");
+        })
+    </script>
     
 </body>
 </html>

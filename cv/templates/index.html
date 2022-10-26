@@ -171,8 +171,8 @@ TODOS:
                 </div>
                 
                 <ul class="absolute top-0 right-0 pl-8 bg-stone-50 space-y-1 text-xs text-stone-400">
-                    <li><a href="mailto:arjen@bosconsultant.nl" target="_blank"><i class="w-6 text-center fa fa-envelope"></i> arjen@bosconsultant.nl</a></li>
-                    <li><a href="tel:+31615399756" target="_blank"><i class="w-6 text-center fa fa-phone"></i> +31 6 15399756</a></li>
+                    <li><a href=# target="_blank" id="email"><i class="w-6 text-center fa fa-envelope"></i> <span></span></a></li>
+                    <li><a href=# target="_blank" id="phone"><i class="w-6 text-center fa fa-phone"></i> <span></span></a></li>
                     <li><a href="https://linkedin.com/in/arjenbos4" target="_blank"><i class="w-6 text-center fa fa-linkedin"></i> /arjenbos4</a></li>
                     <li><i class="w-6 text-center fa fa-calendar"></i> 3 Jan 1991</li>
                     <li><i class="w-6 text-center fa fa-map-marker"></i> Eindhoven / Remote</li>
@@ -212,6 +212,21 @@ TODOS:
         </div>
     </div>
     {% endfor %}
+    
+    <!-- JavaScript -->
+    <script src="/js/encrypt-email.js"></script>
+    <script>
+        // Wacht en daarna decrypt personal data
+        function sleep(ms) {
+           return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        sleep(2100).then(() => {
+            document.getElementById("email").href = "mailto:" + decrypt("bskfoAcptdpotvmubou/om");
+            document.querySelector("#email span").innerHTML = decrypt("bskfoAcptdpotvmubou/om");
+            document.getElementById("phone").href = "tel:" + decrypt(",427264::867");
+            document.querySelector("#phone span").innerHTML = decrypt(",427264::867");
+        })
+    </script>
     
 </body>
 </html>
