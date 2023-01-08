@@ -2,12 +2,26 @@ werkervaring:
   - organisatie: Freelance Consultant
     functie: Data Analyst / BI Specialist
     datum: Apr 2022 - heden
-    frontpage: True
+    frontpage: False
     skills:
       - Power BI
       - Python
       - SQL
       - Excel
+    omschrijving: Als freelancer voer ik projecten uit bij klanten. De invulling verschilt per project, maar mijn toegevoegde waarde ligt altijd in het analyseren, visualiseren en rapporteren van data.
+  - organisatie: Energy Global (Freelance)
+    functie: Power BI Specialist
+    datum: Jul 2022 - Jan 2023
+    periode: 7 maanden
+    frontpage: True
+    skills:
+    - Power BI
+    - SQL
+    - Excel
+    omschrijving: |
+        Energy Global (programmaverantwoordelijke) handelt elektriciteit en gas voor energieleveranciers. Mijn taak was de grote hoeveelheid data inzichtelijk rapporteren. 
+        
+        Ik heb een Power BI workspace opgezet en Power BI reports gebouwd. Dit omvatte o.a. ETL van MySQL, HTTP requests en bestanden op SharePoint. Ik gaf wekelijks een presentatie en demo aan de stakeholders om feedback op te halen. Deze agile werkwijze was effectief en het resultaat waren duidelijke rapporten met nieuwe inzichten en een stabiel fundament om datagedreven te werken.
   - organisatie: EIFFEL
     functie: Professional Analytics
     datum: Feb 2018 - Feb 2022
@@ -81,17 +95,17 @@ werkervaring:
     skills:
       - Power BI
     omschrijving: Ik gaf (samen met een collega) trainingen Power BI aan een gevarieerde groep finance analisten. In de workshop gingen deelnemers zelf aan de slag met een geprepareerde dataset en moesten ze antwoorden op business vragen zoeken.
-  - organisatie: Bergman Clinics (via EIFFEL)
-    functie: Data Analyst Zorg (DBC)
-    datum: Apr - Jun 2019
-    skills:
-      - Power BI
-      - SQL
-      - Excel
-    omschrijving: |
-      Bij de zorgadministratie heb ik de processen in kaart gebracht adhv data uit het EPD en heb ik stuurinformatie ontworpen in een dashboard met automatische refresh.
-      
-      Dit project vond plaats tijdens de overname van NL Healthcare Clinics (NLHCC) door Bergman Clinics. Duidelijk en structureel stakeholdermanagement was erg belangrijk om belangen van beide partijen mee te nemen.
+#  - organisatie: Bergman Clinics (via EIFFEL)
+#    functie: Data Analyst Zorg (DBC)
+#    datum: Apr - Jun 2019
+#    skills:
+#      - Power BI
+#      - SQL
+#      - Excel
+#    omschrijving: |
+#      Bij de zorgadministratie heb ik de processen in kaart gebracht adhv data uit het EPD en heb ik stuurinformatie ontworpen in een dashboard met automatische refresh.
+#      
+#      Dit project vond plaats tijdens de overname van NL Healthcare Clinics (NLHCC) door Bergman Clinics. Duidelijk en structureel stakeholdermanagement was erg belangrijk om belangen van beide partijen mee te nemen.
   - organisatie: Alliander (via EIFFEL)
     functie: Data Analyst
     datum: Nov 2018 - Jan 2019
@@ -154,7 +168,7 @@ werkervaring:
       - HTML
       - CSS
       - Python
-    omschrijving: Naast mijn werk bij EIFFEL ontwerp, bouw en host ik statische websites voor een kleine groep klanten. Ik vind het leuk om me te verdiepen in webdesign en om direct resultaat te zien bij aanpassingen.
+    omschrijving: Naast mijn werk als data analyst ontwerp, bouw en host ik statische websites voor een kleine groep klanten. Ik vind het leuk om me te verdiepen in webdesign en om direct resultaat te zien bij aanpassingen.
   - organisatie: Philips Handheld Diagnostics
     functie: Process Test Engineer
     datum: Sep 2016 - Aug 2017
