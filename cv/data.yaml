@@ -8,7 +8,8 @@ werkervaring:
       - Python
       - SQL
       - Excel
-    omschrijving: Als freelancer voer ik projecten uit bij klanten. De invulling verschilt per project, maar mijn toegevoegde waarde ligt altijd in het analyseren, visualiseren en rapporteren van data.
+    omschrijving: |
+        Als freelancer voer ik projecten uit bij klanten. De invulling verschilt per project, maar mijn toegevoegde waarde ligt vaak in het analyseren, visualiseren en communiceren van data.
   - organisatie: Energy Global (Freelance)
     functie: Power BI Specialist
     datum: Jul 2022 - Jan 2023
@@ -61,7 +62,7 @@ werkervaring:
 #      - Open data
 #    omschrijving: Geografische data analyse van open data (leefbaarometer) voor bouwbedrijf Van Wijnen.
   - organisatie: ABN AMRO (via EIFFEL)
-    functie: Data Analyst
+    functie: Data Analyst KYC
     datum: Aug 2020 - Apr 2021
     frontpage: True
     skills:
@@ -72,9 +73,9 @@ werkervaring:
       - SQL
     # https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines
     omschrijving: |
-      Als Data Analyst ben ik verantwoordelijk voor periodieke en ad-hoc analyses. Het optimaliseren en automatiseren van processen. En het monitoren daarvan.
+      Als Data Analyst KYC ben ik verantwoordelijk voor periodieke en ad-hoc analyses. Het optimaliseren en automatiseren van processen. En het monitoren daarvan.
       
-      Ik heb hier een Agile werkomgeving opgezet met o.a. een Power BI Premium Workspace, repositories in git en een workflow om Python code te reviewen en te integreren in productie. Deze wendbare werkwijze geeft ons meer aandacht voor de wensen van gebruikers.
+      Ik heb hier een Agile werkomgeving opgezet met Power BI, git en Python. Deze wendbare werkwijze geeft ons meer aandacht voor de wensen van gebruikers en leidt tot een resultaat wat voldoet aan business en aan technische wensen.
   - organisatie: Belastingdienst (via EIFFEL)
     functie: Business Analyst
     datum: Aug 2019 - Jul 2020
