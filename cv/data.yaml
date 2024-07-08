@@ -8,21 +8,36 @@ werkervaring:
       - Python
       - SQL
       - Excel
+    # https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines
     omschrijving: |
-        Als freelancer voer ik projecten uit bij klanten. De invulling verschilt per project, maar mijn toegevoegde waarde ligt vaak in het analyseren, visualiseren en communiceren van data.
+      Als freelancer voer ik projecten uit bij klanten. De invulling verschilt per project, maar mijn toegevoegde waarde ligt altijd in het analyseren, visualiseren en communiceren van data.
+  - organisatie: ASML (Freelance)
+    functie: Data Analyst
+    datum: Mar 2023 - Sep 2024
+    periode: 1 jaar 6 maanden
+    frontpage: True
+    skills:
+      - Excel
+      - Power Query
+      - Power Pivot
+      - SAP Analytics Cloud
+    omschrijving: | 
+      Het finance OpEx team van ASML is verantwoordelijk voor meerdere processen en rapporten welke in toenemende mate complexer groeien. Het was mijn taak om de processen en rapporten te structureren en te optimalizeren.
+
+      Ik heb duidelijke standaarden en verwachtingen afgesproken met stakeholders. Daarnaast heb ik het tweewekelijkse FTE Report (4 uur teruggebracht naar 30 min) en het maandelijkse Sector Report (5 uur teruggebracht naar 20 min) vereenvoudigd en geautomatiseerd waar toepasselijk.
   - organisatie: Energy Global (Freelance)
     functie: Power BI Specialist
     datum: Jul 2022 - Jan 2023
     periode: 7 maanden
     frontpage: True
     skills:
-    - Power BI
-    - SQL
-    - Excel
+      - Power BI
+      - SQL
+      - Excel
     omschrijving: |
-        Energy Global verhandelt elektriciteit en gas voor energieleveranciers. Mijn taak was om a.d.h.v. de grote hoeveelheid data hun processen inzichtelijk te rapporteren.
-        
-        Ik heb een Power BI workspace opgezet en Power BI reports gebouwd. Dit omvatte o.a. ETL van MySQL, HTTP requests en bestanden op SharePoint. Ik gaf wekelijks een presentatie en demo aan de stakeholders om feedback op te halen. Deze agile werkwijze was effectief en het resultaat waren duidelijke rapporten met nieuwe inzichten en een stabiel fundament om datagedreven te werken.
+      Energy Global verhandelt elektriciteit en gas voor energieleveranciers. Mijn taak was om a.d.h.v. de grote hoeveelheid data hun processen inzichtelijk te rapporteren.
+      
+      Ik heb een Power BI workspace opgezet en Power BI reports gebouwd. Dit omvatte o.a. ETL van MySQL, HTTP requests en bestanden op SharePoint. Ik gaf wekelijks een presentatie en demo aan de stakeholders om feedback op te halen. Deze agile werkwijze was effectief en het resultaat waren duidelijke rapporten met nieuwe inzichten en een stabiel fundament om datagedreven te werken.
   - organisatie: EIFFEL
     functie: Professional Analytics
     datum: Feb 2018 - Feb 2022
@@ -34,15 +49,15 @@ werkervaring:
       - SQL
       - Excel
     omschrijving: Op projectbasis in-house opdrachten bij klanten uitvoeren. Sommige interim opdrachten op basis van vaste uren meedraaien in een bestaand team o.l.v. de klant. Met andere projecten fixed-fee een oplossing, dienst of product aanbieden en de klant ontzorgen. Bij alle projecten heb ik als externe verantwoordelijkheid voor stakeholdermanagement, verwachtingen en doelen verduidelijken en is het mijn taak om de klant te helpen met waar ik goed in ben.
-  - organisatie: Bol.com (via EIFFEL)
-    functie: Power BI & Power Apps Developer
-    datum: Okt 2021 - Jan 2022
-    periode: 3 maanden
-    skills:
-      - Power BI
-      - Power Apps
-      - SharePoint
-    omschrijving: Samen met een collega (Product Owner) ontwikkel ik een Power BI rapportage voor de Director Legal van bol.com. Deze geeft inzicht in de Power App die ik in 2019 voor ze gebouwd heb. Na twee jaar gebruik van de app heeft bol.com aanvullende wensen voor nieuwe features. In korte sprints implementeer en publish ik die stapgewijs en in regelmatig overleg met de opdrachtgever.
+  # - organisatie: Bol.com (via EIFFEL)
+  #   functie: Power BI & Power Apps Developer
+  #   datum: Okt 2021 - Jan 2022
+  #   periode: 3 maanden
+  #   skills:
+  #     - Power BI
+  #     - Power Apps
+  #     - SharePoint
+  #   omschrijving: Samen met een collega (Product Owner) ontwikkel ik een Power BI rapportage voor de Director Legal van bol.com. Deze geeft inzicht in de Power App die ik in 2019 voor ze gebouwd heb. Na twee jaar gebruik van de app heeft bol.com aanvullende wensen voor nieuwe features. In korte sprints implementeer en publish ik die stapgewijs en in regelmatig overleg met de opdrachtgever.
 #  - organisatie: BKR  (via EIFFEL)
 #    functie: BI Specialist
 #    datum: Sep 2021
@@ -71,7 +86,6 @@ werkervaring:
       - Excel
       - git
       - SQL
-    # https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines
     omschrijving: |
       Als Data Analyst KYC ben ik verantwoordelijk voor periodieke en ad-hoc analyses. Het optimaliseren en automatiseren van processen. En het monitoren daarvan.
       
@@ -81,7 +95,7 @@ werkervaring:
     datum: Aug 2019 - Jul 2020
     frontpage: True
     skills:
-      - Teradata
+      - SQL (Teradata)
       - Excel
       - SAS Visual Analytics
       - Celonis
