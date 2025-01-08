@@ -12,9 +12,9 @@ werkervaring:
     omschrijving: |
       Als freelancer voer ik projecten uit bij klanten. De invulling verschilt per project, maar mijn toegevoegde waarde ligt altijd in het analyseren, visualiseren en communiceren van data.
   - organisatie: ASML (Freelance)
-    functie: Data Analyst
-    datum: Mar 2023 - Sep 2024
-    periode: 1 jaar 6 maanden
+    functie: Financial Data Analyst
+    datum: Mar 2023 - Dec 2024
+    periode: 1 jaar 9 maanden
     frontpage: True
     skills:
       - Excel
@@ -22,9 +22,9 @@ werkervaring:
       - Power Pivot
       - SAP Analytics Cloud
     omschrijving: | 
-      Het finance OpEx team van ASML is verantwoordelijk voor meerdere processen en rapporten welke in toenemende mate complexer groeien. Het was mijn taak om de processen en rapporten te structureren en te optimalizeren.
+      Het finance OPEX/FTE team van ASML is verantwoordelijk voor meerdere processen en rapporten welke in toenemende mate complexer groeien. Het was mijn taak om de processen en rapporten te structureren en te optimalizeren.
 
-      Ik heb duidelijke standaarden en verwachtingen afgesproken met stakeholders. Daarnaast heb ik het tweewekelijkse FTE Report (4 uur teruggebracht naar 30 min) en het maandelijkse Sector Report (5 uur teruggebracht naar 20 min) vereenvoudigd en geautomatiseerd waar toepasselijk.
+      Ik heb duidelijke standaarden en verwachtingen afgesproken met stakeholders. Resultaten: Maandafsluiting OPEX R&D geoptimaliseerd van 4 werkdagen naar 4 uur. Het tweewekelijkse FTE Report 4 uur semi-geautomatiseerd naar 30 min. R&D Sector Report 5 uur vereenvoudigd en teruggebracht naar 20 min.
   - organisatie: Energy Global (Freelance)
     functie: Power BI Specialist
     datum: Jul 2022 - Jan 2023
@@ -175,15 +175,15 @@ werkervaring:
       - Excel
       - Power BI
     omschrijving: Zorgadministratie behandelt foutieve registraties in het EPD. Mijn taak was het optimaliseren van de dagelijkse voortgangsrapportage. Na onderzoek met stakeholders welke KPIs relevant zijn heb ik een dashboard gebouwd en het proces versnelt van 4 uur handmatig naar 30 minuten deels automatisch.
-  - organisatie: Tijdvooreenweb.site
-    functie: Freelance Website Developer
+  - organisatie: Freelance
+    functie: Website Developer
     datum: Jan 2018 - heden
     frontpage: False
     skills:
       - HTML
       - CSS
       - Python
-    omschrijving: Naast mijn werk als data analyst ontwerp, bouw en host ik statische websites voor een kleine groep klanten. Ik vind het leuk om me te verdiepen in webdesign en om direct resultaat te zien bij aanpassingen.
+    omschrijving: Naast mijn werk als data analyst ontwerp, bouw en host ik statische websites voor MKB. Ik vind het leuk om me te verdiepen in webdesign en om direct resultaat te zien bij aanpassingen.
   - organisatie: Philips Handheld Diagnostics
     functie: Process Test Engineer
     datum: Sep 2016 - Aug 2017
